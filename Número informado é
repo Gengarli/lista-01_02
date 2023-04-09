@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class Main {
+  
+  public static void main(String[] args) {
+     
+     Scanner teclado = new Scanner(System.in);
+     
+     System.out.print("Me informe um número: ");
+     double x = teclado.nextDouble();
+    
+     System.out.println("O número informado é: " + x + "!");
+
+     }
+
+}
